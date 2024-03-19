@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+}
+
+.appointment {
+  color: white;
+  display: grid;
+  justify-content: center;
+
+}
+
+.btn {
+  background-color: rgb(80, 43, 226);
+  color: rgb(255, 255, 255);
+  width: 50rem;
+  height: 2rem;
+  margin: 0.5rem;
+  border-radius: 10px;
+
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.add-appointment {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border-style: ridge;
+  width: 50rem;
+  margin-left: 0.4rem;
+  color: black;
+}
+
+input {
+  width: 40rem;
+  height: 2rem;
+  margin: 0.5rem;
+  box-sizing: border-box;
+
+}
+
+button {
+  width: 3rem;
+  height: 3rem;
+  margin: 0.5rem;
+  border-radius: 10px;
+  color: black;
+  border-style: ridge;
+  
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(54, 15, 211);
+  color: white;
+}
+
+textarea {
+  width: 40rem;
+  height: 5rem;
+  margin-left: 0.5rem;
+}
+
+.header {
+  color: white;
+  display: grid;
+  justify-content: center;
+  background-color: rgb(80, 43, 226);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+label {
+  width: 10rem;
+}
+
+.pet {
+  margin-left: 1rem;
+}
+
+.date {
+  margin-left: 3.3rem;
+}
+
+.notes {
+  margin-left: 0.8rem;
+}
+
+.add {
+  margin-left: 5.7rem;
+  background-color: rgb(80, 43, 226);
+  color: rgb(255, 255, 255);
+  border-radius: 1rem;
+}
+
+.error {
+  margin-left: 5.7rem;
+  margin-bottom: 1rem;
+}
+
+.petappointment {
+  margin-bottom: 1rem;
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-bottom: 1px dotted;
+  width: 50rem;
+  justify-content: center;
+  text-align: center;
+}
+
+.box {
+  display: grid;
+  justify-content: center;
+}
+
+.box h1 {
+  color: rgb(43, 122, 226);
+  font-size: 2rem;
+  font-family: monospace;
+}
+
+.box p {
+  color: rgb(138, 79, 194);
+  font-size: 1rem;
+}
